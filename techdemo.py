@@ -6,7 +6,7 @@ import boto.route53
 import boto.dynamodb2
 from boto.dynamodb2.fields import HashKey
 from boto.dynamodb2.table import Table
-from time import gmtime, strftime, sleep
+from time import gmtime, strftime
 
 #Class to setup communications to AWS Route53 and DynamoDB
 class AWS_Comms():
