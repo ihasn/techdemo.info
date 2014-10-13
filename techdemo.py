@@ -23,7 +23,7 @@ class AWS_Comms():
 
     #Sets up the connection to Dynamodb
     def dynamodb(self):
-        comms = Table('comms',connection= boto.dynamodb2.connect_to_region("us-east-1", aws_access_key_id=AWS_Comms.aws_access_key_id, aws_secret_access_key=AWS_Comms.aws_secret_access_key))
+        comms = Table('xxxxx',connection= boto.dynamodb2.connect_to_region("us-east-1", aws_access_key_id=AWS_Comms.aws_access_key_id, aws_secret_access_key=AWS_Comms.aws_secret_access_key))
         return comms
 
 #A Record section
